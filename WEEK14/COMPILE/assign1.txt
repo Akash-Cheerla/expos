@@ -1,0 +1,13 @@
+load --exec /home/badri/myexpos/WEEK14/prime.xsm
+dump --inodeusertable 
+
+load --init /home/badri/myexpos/WEEK14/odd.xsm
+load --library /home/badri/myexpos/expl/library.lib
+load --idle /home/badri/myexpos/WEEK14/idle.xsm
+load --int=10 /home/badri/myexpos/WEEK14/haltprog.xsm
+load --exhandler /home/badri/myexpos/WEEK14/haltprog.xsm
+load --int=7 /home/badri/myexpos/WEEK14/sample_int7.xsm
+load --int=timer /home/badri/myexpos/WEEK14/ex14_timer.xsm
+load --module 7 /home/badri/myexpos/WEEK14/a1_m7.xsm
+load --module 5 /home/badri/myexpos/WEEK14/module_5.xsm
+load --os /home/badri/myexpos/WEEK14/ex14_os.xsm
